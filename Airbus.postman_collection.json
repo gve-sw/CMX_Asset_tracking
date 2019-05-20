@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "42603fad-4054-4693-a818-38f5aa179d48",
+		"name": "Airbus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/webhook",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"notifications\": [\n    {\n      \"notificationType\": \"locationupdate\",\n      \"subscriptionName\": \"test\",\n      \"eventId\": 132835,\n      \"locationMapHierarchy\": \"DE-STA-Stade>004>004 Erdgeschoss\",\n      \"locationCoordinate\": {\n        \"x\": 400.46548,\n        \"y\": 20.743439,\n        \"z\": 0,\n        \"unit\": \"FEET\"\n      },\n      \"geoCoordinate\": {\n        \"latitude\": -999,\n        \"longitude\": -999,\n        \"unit\": \"DEGREES\"\n      },\n      \"confidenceFactor\": 24,\n      \"apMacAddress\": \"NOT APPLICABLE\",\n      \"associated\": false,\n      \"username\": \"NOT APPLICABLE\",\n      \"ipAddress\": [\n        \"NOT APPLICABLE\"\n      ],\n      \"ssid\": \"NOT APPLICABLE\",\n      \"band\": \"NOT APPLICABLE\",\n      \"floorId\": 3224326794870038000,\n      \"floorRefId\": \"3224326794870037955\",\n      \"entity\": \"TAGS\",\n      \"deviceId\": \"c4:cb:6b:60:0c:bf\",\n      \"lastSeen\": \"2019-02-25T14:07:21.044+0100\",\n      \"rawLocation\": {\n        \"rawX\": -999,\n        \"rawY\": -999,\n        \"unit\": \"FEET\"\n      },\n      \"tagVendorData\": {\n        \"vendorId\": 12897131,\n        \"elementId\": 0,\n        \"data\": \"MDAwMXw5Nzg1NzUzOXxCQVRUPTIuOTR8QlA9OTl8QjE9MHxCMj0wfEhVTT0tMTAwfFRFTVA9LTIzOHxCTUFDPUM0Q0I2QjYwMENCRnxIRFU9MHw=\",\n        \"lastReceivedTime\": \"2019-02-25T13:59:49.669+0100\",\n        \"lastReceivedSeqNum\": 899\n      },\n      \"bleTagInfo\": null,\n      \"locComputeType\": \"RSSI\",\n      \"manufacturer\": \"Airista Flow, Inc.\",\n      \"maxDetectedRssi\": {\n        \"apMacAddress\": \"70:db:98:ed:ed:80\",\n        \"band\": \"IEEE_802_11_B\",\n        \"slot\": 0,\n        \"rssi\": -34,\n        \"antennaIndex\": 0,\n        \"lastHeardInSeconds\": 1\n      },\n      \"timestamp\": 1551100041044\n    }\n  ]\n}"
+				},
+				"url": "http://127.0.0.1:5000/webhook"
+			},
+			"response": []
+		}
+	]
+}
