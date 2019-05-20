@@ -21,7 +21,7 @@ $ python server.py
 In a web browser open :
 http://127.0.0.1:5000/start
 
-##Integrate to CMX:
+## Integrate to CMX:
 
 Add the url 'http://127.0.0.1:5000/webhook' into CMX to post the location data directly to the app
 
