@@ -4,7 +4,7 @@ This is a prototype for asset tracking using CMX
 ## Usage:
 Clone the repo :
 ```
-$ git clone hhttps://github.com/Abdellbar/Asset_tracking_POV
+$ git clone https://github.com/Abdellbar/Asset_tracking_POV
 ```
 
 Install dependencies :
@@ -13,7 +13,7 @@ $ pip install flask
 $ pip install WTForms
 ```
 
-Lunch the server by issueing 
+Launch the server by issueing 
 ```
 $ python server.py
 ```
