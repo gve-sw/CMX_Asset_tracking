@@ -1,5 +1,6 @@
 # Asset_tracking_POV
-This is a prototype for asset tracking using CMX
+This prototype is a mockup interface to CMX that can take in the notifications data using CMX REST APIs to locate assets by the mac address on a floor map, The prototype is built using a python Flask server and CISCO UI toolkit and cisco NeXt UI toolkit
+the GUI allows the user to orgnise assets into groups and allows the user to reqest the location of an asset or group of assets
 
 ## Usage:
 Clone the repo :
@@ -12,6 +13,7 @@ Install dependencies :
 $ pip install flask
 $ pip install WTForms
 ```
+update the mac address of the devices to be tracked, in the GroupTag_Form,Select_Form classes in server.py and js/nodes.js files 
 
 Launch the server by issueing 
 ```
